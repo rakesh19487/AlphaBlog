@@ -1,0 +1,85 @@
+$navbar-default-bg:black;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar-inverse{
+    border-radius: 0px !important;
+}
+
+#logo{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+#logo:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.jumbotron{
+    text-align: center;
+    background-image: asset-url('download.png');
+    background-size: cover;
+    height: 500px;
+}
+
+.jumbotron h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.btn-xlarge{
+    font-size: 1.7em;
+}
+
+.footer {
+    // position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    padding: 10px;
+  }
+
+.article-title{
+    font-weight: bold;
+    font-size: 1.5em;
+}  
+
+.article-body{
+    border-top: 1px solid #eaeaea;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.article-meta-details{
+    border-top: 1px solid #eaeaea;
+    margin-top: 15px;
+}
+
+.center{
+    text-align: center;
+}
+
+.listing{
+    list-style: none;
+    padding-left: 0;
+}
+
+.badge_style{
+    background-color: "#CEF6F5" !important;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
